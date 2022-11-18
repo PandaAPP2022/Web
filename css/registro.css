@@ -1,0 +1,145 @@
+#titulo3
+{
+    text-align: center;
+    margin-top: 36px;
+    justify-content:flex-start;
+    font-family: 'Eurotypo Sans';
+    text-transform: uppercase;
+}
+
+.formu
+{
+    width: 400px;
+    background: #DC7633;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 82px;
+    border-radius: 4px;
+    font-family: 'Eurotypo Sans Light';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+.formu h4
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls
+{
+    width: 100%;
+    background: #2d3033;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #AEC957;
+    font-family: 'Eurotypo Sans Light';
+    font-size: 18px;
+    color: white;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+
+.radio 
+{
+    accent-color: #AEC957;
+    outline-offset: 0;
+}
+
+input,label
+{
+    cursor: pointer;
+}
+
+#sexo:checked
+{
+   
+        box-shadow: 0 0 0 1px #AEC957;
+        background-color: #AEC957;
+        border-width: 0.2rem;
+        height: 0.9rem;
+        width: 0.9rem;
+    
+}
+
+input[type="radio"] {
+    height: 0.9rem;
+    width: 0.9rem;
+}
+
+
+.formu p 
+{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.formu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.formu a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.formu .botons
+{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.formu .botons:hover
+{
+    background-color: #AEC957;
+    color: black;
+    transition: 1.2s;
+}
+
+#aceptar 
+{
+    width: 15px;
+    height: 15px;
+    margin-left: -209px;
+    margin-top: 40px;
+    position: absolute;
+    accent-color: #AEC957;
+}
+
+#onartu{
+    width: 15px;
+    height: 15px;
+    margin-left: -261px;
+    margin-top: 40px;
+    position: absolute;
+    accent-color: #AEC957;
+}
+
+#accept{
+    width: 15px;
+    height: 15px;
+    margin-left: -159px;
+    margin-top: 40px;
+    position: absolute;
+    accent-color: #AEC957;
+}
+

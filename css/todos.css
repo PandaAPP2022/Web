@@ -1,0 +1,263 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+  height: 100%;
+}
+#tituloWeb
+{
+    margin-bottom: 600px;
+    margin-left: 30px;
+}
+
+#encabezado
+{
+    width: 100%;
+    height: 400px;
+    background: url("../images/pandaEncabezado.jpg"), no-repeat;
+    background-size: 100% 400px;
+}
+
+.idiomas
+{
+    float: right;
+}
+
+.nav {
+    border-bottom: 1px solid black;
+    background: black;
+    text-transform: uppercase;
+  }
+  
+  .nav__checkbox {
+    display: none;
+  }
+  
+  .nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 8px 1rem;
+    right: 0;
+  }
+  
+  .nav__toggle svg {
+    width: 1rem;
+    fill: white;
+  }
+  
+  .nav__toggle .close {
+    display: none;
+  }
+  
+  .nav__toggle .close,
+  .nav__toggle .menu {
+    margin-top: 0.3rem;
+  }
+  
+
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: auto 20px 10px;
+  }
+  
+  .nav__menu li a:hover
+  {
+      color: #AEC957;
+  }
+  .nav .active
+  {
+    color: #D6B450;
+  }
+  
+  .nav__menu li {
+    display: none;
+    margin-top: 5px;
+    list-style-type: none;
+  }
+
+
+  
+  .nav__menu li:first-child {
+    display: block;
+    margin-right: auto;
+  }
+  
+  .nav__menu a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .menu__logo {
+    height: 30px;
+  }
+  
+  .menu__logo img {
+    height: 100%;
+    margin-top: 2px;
+  }
+  
+  #nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+  }
+  
+  #nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+  }
+  
+  #nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+  }
+   
+  
+  #nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+  }
+  
+  #nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+  }
+  
+  #nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+  }
+
+  
+  
+  @media only screen and (min-width: 878px) {
+    .nav__toggle {
+      display: none;
+    }
+
+   
+    .nav__menu {
+      flex-direction: row;
+    }
+  
+    .nav__menu li {
+      display: block;
+    }
+
+   
+  }
+  
+  @media only screen and (max-width: 878px) {
+    .nav__menu li a:hover
+    {
+        color: #6E9A42;
+    }
+
+}
+
+
+.pie {
+    background-color: black;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  .imagen-pie
+  {
+    width: 80px;
+    height: 80px;
+  }
+
+  .imagen-pie:hover
+  {
+    animation-name: animacion;
+    animation:animacion 3s infinite;
+  }
+  .pie .pie-i .imagen-pie {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  
+  .pie p.pie-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    margin-left: 245px;
+    transition: ease .25s;
+  }
+  
+  .pie p.pie-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .pie .pie-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .pie .pie-links .link-1:before {
+    content: none;
+  }
+  
+  .pie .pie-d {
+    float: right;
+    margin-top: 6px;
+    max-width: 219px;
+  }
+  
+  .pie .pie-d a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .pie .pie-d a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);background-color: #AEC957 ;}
+  
+  .pie p.pie-links a:hover{text-decoration:underline;color: #AEC957;}
+  
+  
+  @keyframes animacion {
+
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+  }
+  
+  @media (max-width: 600px) {
+    .pie .pie-i, .pie .pie-d {
+      text-align: center;
+    }
+    .pie .pie-d {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .pie .pie-i p.pie-links {
+      line-height: 1.8;
+      margin: 0 auto 20px;
+    }
+  }

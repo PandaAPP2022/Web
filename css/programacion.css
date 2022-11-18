@@ -1,0 +1,90 @@
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.card{
+    width: 700px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    background: #AEC957;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+h3{
+    font-size: 25px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 5px 10px  #DC7633;
+}
+.card .img-card{
+    background: url(../images/panda2.jpg);
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+.card .img-card2{
+    background: url(../images/panda2.jpg);
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+.card .content{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    padding: 10px 15px;
+}
+
+.card .content .title h3{
+    color: #6e570e;
+}
+.card .content .title span{
+    color: #1f53c5;
+    font-size: 17px;
+}
+.card .content .text p{
+    color: black;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 750px) {
+   .card{
+    width: 95%;
+    height: 100%;
+   }
+   
+   .card .img-card{
+    background: url(../images/panda2.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.card .img-card2{
+    background: url(../images/panda2.jpg);
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+}
