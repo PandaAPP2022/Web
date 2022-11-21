@@ -37,13 +37,13 @@ h3{
 .card .img-card{
     background: url(../images/bingoPrincipal.PNG);
     width: 60%;
-    height: 138px;
+    height: 80%;
     background-size: cover;
 }
 .card .img-card2{
     background: url(../images/carton.PNG);
     width: 60%;
-    height: 200px;
+    height: 80%;
     background-size: cover;
 }
 .card .content{
