@@ -38,7 +38,7 @@ h3{
     background: url(../images/bingoPrincipal.PNG);
     /* width: 40%;
     height: 138px; */
-    aspect-ratio: 10/4;
+    aspect-ratio: 8/4;
     width: 40%;
     background-size: cover;
 }
