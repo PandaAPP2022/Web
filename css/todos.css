@@ -23,11 +23,6 @@ html,body
     background-size: 100% 400px;
 }
 
-.idiomas
-{
-    float: right;
-}
-
 .nav {
     border-bottom: 1px solid black;
     background: black;
@@ -157,6 +152,17 @@ html,body
 
 }
 
+section #bg {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/fondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.idiomas {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .pie {
     background-color: black;
@@ -288,9 +294,4 @@ html,body
   40% { transform: rotate(45deg); }
   70% { transform: rotate(-45deg); }
   100% { opacity: 1;transform: rotate(0deg); }
-}
-body {
-  background-image: url("../images/fondo.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
