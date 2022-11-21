@@ -261,3 +261,30 @@ html,body
       margin: 0 auto 20px;
     }
   }
+
+/***** ANIMACIÓN PANTALLA DE CARGA *****/
+#loader {
+  position: absolute;
+  inset: 0;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade 3s ease-out;
+  z-index: -1;
+}
+#loader img {
+    width: 100px;
+    animation: load 2s ease;
+}
+@keyframes fade {
+    0%, 100% { z-index: 10;}
+    66% { opacity: 1;}
+    100% { opacity: 0;}
+}
+@keyframes load {
+    10% { transform: rotate(0deg); }
+    40% { transform: rotate(45deg); }
+    70% { transform: rotate(-45deg); }
+    100% { transform: rotate(0deg); }
+}
