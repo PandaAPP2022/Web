@@ -36,8 +36,10 @@ h3{
 }
 .card .img-card{
     background: url(../images/bingoPrincipal.PNG);
-    width: 40%;
-    height: 138px;
+    /* width: 40%;
+    height: 138px; */
+    aspect-ratio: 1/1;
+    height: 100%;
     background-size: cover;
 }
 .card .img-card2{
