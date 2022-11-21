@@ -46,7 +46,7 @@ h3{
     background: url(../images/carton.PNG);
     /*width: 40%;
     height: 200px;*/
-    aspect-ratio: 9/5;
+    aspect-ratio: 7/5;
     width: 40%;
     background-size: cover;
 }
