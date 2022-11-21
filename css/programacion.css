@@ -71,10 +71,10 @@ h3{
 }
 
 @media only screen and (max-width: 750px) {
-   .card{
+.card {
     width: 95%;
     height: 100%;
-   }
+}
    
    .card .img-card{
     width: 150px;
