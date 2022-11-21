@@ -77,14 +77,12 @@ h3{
    }
    
    .card .img-card{
-    background: url(../images/panda2.jpg);
     width: 150px;
     height: 150px;
     background-size: cover;
     margin-left: 10px;
 }
 .card .img-card2{
-    background: url(../images/panda2.jpg);
     width: 40%;
     height: 100%;
     background-size: cover;
