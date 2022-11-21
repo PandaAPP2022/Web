@@ -39,7 +39,7 @@ h3{
     /* width: 40%;
     height: 138px; */
     aspect-ratio: 1/1;
-    height: 100%;
+    width: 40%;
     background-size: cover;
 }
 .card .img-card2{
