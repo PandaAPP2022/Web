@@ -76,11 +76,10 @@ h3{
     height: 100%;
 }
    
-   .card .img-card{
+.card .img-card {
     width: 150px;
     height: 150px;
     background-size: cover;
-    margin-left: 10px;
 }
 .card .img-card2{
     width: 40%;
