@@ -143,3 +143,12 @@ input[type="radio"] {
     accent-color: #AEC957;
 }
 
+@media screen and (orientation:portrait)
+{
+  
+
+ .formu
+ {
+    width: 90%;
+ }
+}
