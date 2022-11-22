@@ -112,13 +112,6 @@ input[type="radio"] {
     transition: 1.2s;
 }
 
-#aceptar 
-{
-    width: 15px;
-    height: 15px;
-    accent-color: #AEC957;
-}
-
 #boton
 {
     display: flex;
@@ -130,12 +123,6 @@ input[type="radio"] {
 }
 #boton p {
     width: 100%;
-}
-
-#onartu{
-    width: 15px;
-    height: 15px;
-    accent-color: #AEC957;
 }
 
 #accept{
