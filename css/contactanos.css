@@ -18,7 +18,7 @@
 .form-contact
 {
     background-color: #fff;
-    width: 100%;
+    width: 400px;
     margin-top: 63px;
     align-items: center;
     margin-bottom: 65px;
@@ -36,7 +36,7 @@ iframe
 
 #ubicacion
 {
-    width: 100%;
+    width: 400px;
     height: 300px;
     margin-bottom: 50px;
     border: 5px solid #AEC957 ;
