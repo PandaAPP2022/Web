@@ -119,10 +119,12 @@ input[type="radio"] {
 {
     width: 15px;
     height: 15px;
-    margin-left: -209px;
-    margin-top: 40px;
-    position: absolute;
     accent-color: #AEC957;
+}
+
+#boton
+{
+    display: flex;
 }
 
 #onartu{
