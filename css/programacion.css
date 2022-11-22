@@ -81,6 +81,9 @@ h3{
     height: 150px;
     background-size: cover;
 }
+.card .content {
+    overflow-y: scroll;
+}
 .card .img-card2{
     width: 40%;
     height: 100%;
