@@ -124,8 +124,12 @@ input[type="radio"] {
     display: flex;
     padding: 10px;
 }
-#boton * {
-    flex: 1;
+#boton input {
+    margin-right: -20px;
+    margin-top: 3px;
+}
+#boton p {
+    width: 100%;
 }
 
 #onartu{
