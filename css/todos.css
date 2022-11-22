@@ -152,7 +152,7 @@ html,body
 
 }
 
-section #bg {
+section {
   display: flex;
   flex-direction: column;
   background-image: url("../images/fondo.png");
