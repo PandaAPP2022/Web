@@ -135,13 +135,23 @@ input[type="radio"] {
 }
 #boton p {
     width: 80%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #accept{
     width: 15px;
     height: 15px;
     accent-color: #AEC957;
+}
+
+.onartu
+{
+    margin-left: 50px;
+}
+
+.onartu2
+{
+    margin-right: 67px;
 }
 
 @media screen and (orientation:portrait)
