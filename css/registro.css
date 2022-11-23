@@ -134,7 +134,8 @@ input[type="radio"] {
     margin-top: 3px;
 }
 #boton p {
-    width: 100%;
+    width: 80%;
+    margin-left: 30px;
 }
 
 #accept{
