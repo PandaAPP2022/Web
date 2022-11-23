@@ -157,6 +157,6 @@ input[type="radio"] {
  }
  #genre input
  {
-    margin-left: 4px;
+    width: 100%;
  }
 }
